@@ -38,6 +38,8 @@ footprint on machines where these are not needed.
 
 =pkg Catalyst::Plugin::AutoCRUD 1.112560
 
+=pkg Catalyst::Plugin::RedirectAndDetach
+
 =pkg Catalyst::Plugin::Session
 
 =pkg Catalyst::Plugin::Session::State::Cookie
@@ -54,6 +56,10 @@ footprint on machines where these are not needed.
 
 =pkg Catalyst::View::TT
 
+=pkg Catalyst::View::Haml
+
+=pkg MooseX::MethodAttributes::Role
+
 
 =pkgroup Dancer
 
@@ -65,6 +71,8 @@ footprint on machines where these are not needed.
 =pkg Plack
 
 =pkg Plack::Middleware::Debug
+
+=pkg Plack::Middleware::MethodOverride 0.10
 
 =pkg Plack::Middleware::SetAccept
 
@@ -84,7 +92,7 @@ footprint on machines where these are not needed.
 
 =pkg Text::Haml
 
-=pkg Template::Toolkit
+=pkg Template
 
 =pkg Template::Plugin::JSON::Escape
 
